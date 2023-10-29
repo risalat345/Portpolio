@@ -1,0 +1,75 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.one{
+    color: indianred;
+}
+.car{
+    width: 40%;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 50px;
+}
+.car img{
+    width: 100%;
+}
+.top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.button{
+    text-decoration: none;
+    background-color: purple;
+    background-image: linear-gradient(45deg hotpink purple);
+    padding: 10px;
+    border-radius: 8px;
+    color: aliceblue;
+    font-weight: 700;
+}
+.bottom{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.color{
+    color: brown;
+}
+.box{
+    margin-left: 50px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.midium{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#one{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 4;
+}
+#two{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, aqua);
+    border-image-slice: 1;
+} 
+footer{
+    text-align: center;
+    font-size: 12px;
+}
+
+
